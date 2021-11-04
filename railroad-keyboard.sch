@@ -2982,8 +2982,6 @@ Connection ~ 10000 1100
 Wire Wire Line
 	10000 1100 10000 2850
 Connection ~ 10000 2850
-Wire Wire Line
-	10000 2850 10000 4350
 Connection ~ 10000 4350
 Wire Wire Line
 	10000 4350 10000 5850
@@ -4146,7 +4144,7 @@ U 1 1 61F26F74
 P 10200 4400
 F 0 "MX505_200v1" H 10300 4650 60  0000 C CNN
 F 1 "MX-NoLED" H 10233 4549 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2U-VerticalStabilizers-NoLED" H 9575 4375 60  0001 C CNN
+F 2 "MX_Only:MXOnly-2U-ReversedVerticalStabilizers-NoLED" H 9575 4375 60  0001 C CNN
 F 3 "" H 9575 4375 60  0001 C CNN
 	1    10200 4400
 	1    0    0    -1  
@@ -4155,8 +4153,6 @@ Wire Wire Line
 	10350 4100 10350 4350
 Wire Wire Line
 	10150 4550 9800 4550
-Wire Wire Line
-	10000 4100 10350 4100
 $Comp
 L railroad-keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX404_b1
 U 1 1 61CBCBD0
@@ -4173,4 +4169,11 @@ Wire Wire Line
 Connection ~ 8000 4050
 Wire Wire Line
 	8000 4050 8000 4350
+Wire Wire Line
+	10000 2850 10000 4100
+Wire Wire Line
+	10350 4100 10000 4100
+Connection ~ 10000 4100
+Wire Wire Line
+	10000 4100 10000 4350
 $EndSCHEMATC
